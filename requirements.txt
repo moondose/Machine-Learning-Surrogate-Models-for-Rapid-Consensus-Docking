@@ -1,0 +1,11 @@
+# Core descriptor, target construction, training, and prediction environment.
+numpy==2.0.2
+pandas
+rdkit==2025.3.5
+scipy
+scikit-learn
+matplotlib
+tqdm
+threadpoolctl
+# Install a suitable torch>=2.3 build separately for the intended CPU/CUDA host.
+# SUBMO additionally requires dgl==1.1.3 and dgllife==0.3.2.

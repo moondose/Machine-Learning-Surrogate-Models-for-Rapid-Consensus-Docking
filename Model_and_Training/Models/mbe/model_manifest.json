@@ -1,0 +1,147 @@
+{
+  "model": "mbe",
+  "source_directory": "/home/ning/DockingProject/training/regression/mbe/results/descriptor_comparison/mbe_batch_1024_lr_0.01",
+  "folds": 10,
+  "features": 2274,
+  "validation": "SHA-256 copy verification; strict state_dict load and finite CPU forward for every fold",
+  "files": [
+    {
+      "path": "feature_names.csv",
+      "bytes": 33688,
+      "sha256": "5821369c7573654645d70792344f00c465f0855514eb01bae8f0eb7d357cab92",
+      "source": "/home/ning/DockingProject/training/shared/data/descriptors_gnn/feature_names_morgan_rdkit_all.csv"
+    },
+    {
+      "path": "cv_summary.json",
+      "bytes": 1279,
+      "sha256": "b9308cb6d2284b4f39a8b9385217a5db1f938d94e69e95f83b48443799bc5e3a",
+      "source": "/home/ning/DockingProject/training/regression/mbe/results/descriptor_comparison/mbe_batch_1024_lr_0.01/cv_summary.json"
+    },
+    {
+      "path": "fold_metrics.csv",
+      "bytes": 1615,
+      "sha256": "7559e67d357d5b6e21b977f64ed8844d9cc36a68e85e9807acbd6488c6d9c9a5",
+      "source": "/home/ning/DockingProject/training/regression/mbe/results/descriptor_comparison/mbe_batch_1024_lr_0.01/fold_metrics.csv"
+    },
+    {
+      "path": "fold_1/best_model.pt",
+      "bytes": 29195874,
+      "sha256": "81ef5a47445f6175a6519185c93156edb046162e8ddc80b5cef0ffb0d3474be5",
+      "source": "/home/ning/DockingProject/training/regression/mbe/results/descriptor_comparison/mbe_batch_1024_lr_0.01/fold_1/best_model.pt"
+    },
+    {
+      "path": "fold_1/metadata.npz",
+      "bytes": 21846,
+      "sha256": "38633e3070c28e744bfab1fc331725e836dd0ee5e318073ad8d7bd27f137a8e6",
+      "source": "/home/ning/DockingProject/training/regression/mbe/results/descriptor_comparison/mbe_batch_1024_lr_0.01/fold_1/metadata.npz"
+    },
+    {
+      "path": "fold_2/best_model.pt",
+      "bytes": 29195874,
+      "sha256": "bb1ad02d552d433330c1ba75b756d8f197ebe820b0362a1b0904fbe1018fd462",
+      "source": "/home/ning/DockingProject/training/regression/mbe/results/descriptor_comparison/mbe_batch_1024_lr_0.01/fold_2/best_model.pt"
+    },
+    {
+      "path": "fold_2/metadata.npz",
+      "bytes": 21846,
+      "sha256": "f465b94a8f1980c32cc616f479da39c4faab7f581e9c6e2ee5fecf34aa53e24d",
+      "source": "/home/ning/DockingProject/training/regression/mbe/results/descriptor_comparison/mbe_batch_1024_lr_0.01/fold_2/metadata.npz"
+    },
+    {
+      "path": "fold_3/best_model.pt",
+      "bytes": 29195874,
+      "sha256": "782ad0abc7a92ba2d659ba40dc67218f470e1260323cd3ba1ae12e96275de1ab",
+      "source": "/home/ning/DockingProject/training/regression/mbe/results/descriptor_comparison/mbe_batch_1024_lr_0.01/fold_3/best_model.pt"
+    },
+    {
+      "path": "fold_3/metadata.npz",
+      "bytes": 21846,
+      "sha256": "b34acbfa15f44a6d960693e61f23c9ce244bd72da42f16253ddcaf9f3a649877",
+      "source": "/home/ning/DockingProject/training/regression/mbe/results/descriptor_comparison/mbe_batch_1024_lr_0.01/fold_3/metadata.npz"
+    },
+    {
+      "path": "fold_4/best_model.pt",
+      "bytes": 29195874,
+      "sha256": "1413f65a1c788a21bc43e57de07852b39186e548afd3d0791b9f270eaa28d536",
+      "source": "/home/ning/DockingProject/training/regression/mbe/results/descriptor_comparison/mbe_batch_1024_lr_0.01/fold_4/best_model.pt"
+    },
+    {
+      "path": "fold_4/metadata.npz",
+      "bytes": 21846,
+      "sha256": "9d917f9a88929e018e6272a7e1d661e233058e470ef0f8fbed743de551400081",
+      "source": "/home/ning/DockingProject/training/regression/mbe/results/descriptor_comparison/mbe_batch_1024_lr_0.01/fold_4/metadata.npz"
+    },
+    {
+      "path": "fold_5/best_model.pt",
+      "bytes": 29195874,
+      "sha256": "700b51d287bb335451c15766b3fc8b4bbd28b39312dd6e7fb1c658fe6e80775f",
+      "source": "/home/ning/DockingProject/training/regression/mbe/results/descriptor_comparison/mbe_batch_1024_lr_0.01/fold_5/best_model.pt"
+    },
+    {
+      "path": "fold_5/metadata.npz",
+      "bytes": 21846,
+      "sha256": "e1452ffb9fe90042f24981cf3e78cc3ce94e146fcd76647a0547362a991f1eaf",
+      "source": "/home/ning/DockingProject/training/regression/mbe/results/descriptor_comparison/mbe_batch_1024_lr_0.01/fold_5/metadata.npz"
+    },
+    {
+      "path": "fold_6/best_model.pt",
+      "bytes": 29195874,
+      "sha256": "d28c699b436047c56c9a7218c775399a7947eb9699d6d6363cb5ea41576d8976",
+      "source": "/home/ning/DockingProject/training/regression/mbe/results/descriptor_comparison/mbe_batch_1024_lr_0.01/fold_6/best_model.pt"
+    },
+    {
+      "path": "fold_6/metadata.npz",
+      "bytes": 21846,
+      "sha256": "abed43e831d7e50a17783e48149750b557a214656104e17b572a3ddb03baea93",
+      "source": "/home/ning/DockingProject/training/regression/mbe/results/descriptor_comparison/mbe_batch_1024_lr_0.01/fold_6/metadata.npz"
+    },
+    {
+      "path": "fold_7/best_model.pt",
+      "bytes": 29195874,
+      "sha256": "2156f3fd2f8daa28da4793a5841d1dcf9c2fac3432a59a35f1d0d393852a6a7b",
+      "source": "/home/ning/DockingProject/training/regression/mbe/results/descriptor_comparison/mbe_batch_1024_lr_0.01/fold_7/best_model.pt"
+    },
+    {
+      "path": "fold_7/metadata.npz",
+      "bytes": 21846,
+      "sha256": "4315174d4e401a92d9dab4afb1cda58e8db3a258d52ddff3d7d8a92f1ff22cbe",
+      "source": "/home/ning/DockingProject/training/regression/mbe/results/descriptor_comparison/mbe_batch_1024_lr_0.01/fold_7/metadata.npz"
+    },
+    {
+      "path": "fold_8/best_model.pt",
+      "bytes": 29195874,
+      "sha256": "c9608cd36850653c22f94c2e5c28c92af4ef1d298c0e13ce56c2328be763ef95",
+      "source": "/home/ning/DockingProject/training/regression/mbe/results/descriptor_comparison/mbe_batch_1024_lr_0.01/fold_8/best_model.pt"
+    },
+    {
+      "path": "fold_8/metadata.npz",
+      "bytes": 21846,
+      "sha256": "54228bf9bd0acf98d541e8c464e12b82aae71f8aa400e0bf69eb55e39faf4f29",
+      "source": "/home/ning/DockingProject/training/regression/mbe/results/descriptor_comparison/mbe_batch_1024_lr_0.01/fold_8/metadata.npz"
+    },
+    {
+      "path": "fold_9/best_model.pt",
+      "bytes": 29195874,
+      "sha256": "34172f291a3fa303e30dcc157b30295a5e7b1bae88e22a871183f563a9703aef",
+      "source": "/home/ning/DockingProject/training/regression/mbe/results/descriptor_comparison/mbe_batch_1024_lr_0.01/fold_9/best_model.pt"
+    },
+    {
+      "path": "fold_9/metadata.npz",
+      "bytes": 21846,
+      "sha256": "0205702e14d2c910722b25fac646bb82b5b2f8b4ddf5dd6d5a8420d6d0d437c1",
+      "source": "/home/ning/DockingProject/training/regression/mbe/results/descriptor_comparison/mbe_batch_1024_lr_0.01/fold_9/metadata.npz"
+    },
+    {
+      "path": "fold_10/best_model.pt",
+      "bytes": 29195874,
+      "sha256": "2e07ef6667d22664c142b03eb25c32bc0a975a71f6fcf196eaf73d951f175207",
+      "source": "/home/ning/DockingProject/training/regression/mbe/results/descriptor_comparison/mbe_batch_1024_lr_0.01/fold_10/best_model.pt"
+    },
+    {
+      "path": "fold_10/metadata.npz",
+      "bytes": 21846,
+      "sha256": "d5647fbd8ab810b1d8a34508e6a46d4c339eca5bccadd033a903ce1ebaa78e81",
+      "source": "/home/ning/DockingProject/training/regression/mbe/results/descriptor_comparison/mbe_batch_1024_lr_0.01/fold_10/metadata.npz"
+    }
+  ]
+}

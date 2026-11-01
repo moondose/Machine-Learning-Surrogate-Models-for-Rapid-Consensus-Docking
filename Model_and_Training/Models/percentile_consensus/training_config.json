@@ -1,0 +1,31 @@
+{
+  "descriptor_dir": "descriptors_gnn",
+  "targets": "percentile_consensus/gnn/aligned_percentile_targets.npz",
+  "grid_config": "results_3d/percentile_gnn_ndcg_rdkit_morgan_grid_10pct/best_config.json",
+  "output_dir": "results_3d/percentile_gnn_ndcg_rdkit_morgan_best_10fold",
+  "target": "consensus_mean_percentile",
+  "x_file": "X_features_morgan_rdkit_all.npy",
+  "folds": 10,
+  "epochs": 80,
+  "patience": 10,
+  "lr_patience": 4,
+  "min_delta": 1e-05,
+  "tail_fraction": 0.01,
+  "report_fractions": [
+    0.001,
+    0.005,
+    0.01,
+    0.05
+  ],
+  "smooth_l1_beta": 0.25,
+  "clip_grad_norm": 5.0,
+  "momentum": 0.9,
+  "scaler_chunk_size": 20000,
+  "num_workers": 0,
+  "seed": 42,
+  "max_rows": null,
+  "cpu": false,
+  "threads": 4,
+  "cache_device": "cuda",
+  "precision": "amp"
+}

@@ -1,0 +1,153 @@
+{
+  "model": "percentile_consensus",
+  "source_directory": "/home/ning/DockingProject/training/regression/percentile_consensus/results/final_model/percentile_diverse_ndcg_tuned_rdkit_morgan_10fold_final_model",
+  "folds": 10,
+  "features": 2274,
+  "validation": "SHA-256 copy verification; strict state_dict load and finite CPU forward for every fold",
+  "files": [
+    {
+      "path": "feature_names.csv",
+      "bytes": 33688,
+      "sha256": "5821369c7573654645d70792344f00c465f0855514eb01bae8f0eb7d357cab92",
+      "source": "/home/ning/DockingProject/training/regression/percentile_consensus/results/final_model/percentile_diverse_ndcg_tuned_rdkit_morgan_10fold_final_model/feature_names.csv"
+    },
+    {
+      "path": "summary.json",
+      "bytes": 4435,
+      "sha256": "d09625a6d9b500088094504df3e2a06fa02466e3e0f3c7cc023092a0af026086",
+      "source": "/home/ning/DockingProject/training/regression/percentile_consensus/results/final_model/percentile_diverse_ndcg_tuned_rdkit_morgan_10fold_final_model/summary.json"
+    },
+    {
+      "path": "fold_metrics.csv",
+      "bytes": 3660,
+      "sha256": "257eebf8058b445c992889b1c0585a974c0d61c709a6497a351cc8b6cdba39ac",
+      "source": "/home/ning/DockingProject/training/regression/percentile_consensus/results/final_model/percentile_diverse_ndcg_tuned_rdkit_morgan_10fold_final_model/fold_metrics.csv"
+    },
+    {
+      "path": "training_config.json",
+      "bytes": 789,
+      "sha256": "5daf19f473b704024d43bf8d249888576ff5781495bd7721204a2c1eb2e77429",
+      "source": "/home/ning/DockingProject/training/regression/percentile_consensus/results/final_model/percentile_diverse_ndcg_tuned_rdkit_morgan_10fold_final_model/training_config.json"
+    },
+    {
+      "path": "fold_1_best_model.pt",
+      "bytes": 12096956,
+      "sha256": "1decc2f753e7d7f609b8aac3829d9f5f8e6e8189be9204b9f4e776e9867c9bdf",
+      "source": "/home/ning/DockingProject/training/regression/percentile_consensus/results/final_model/percentile_diverse_ndcg_tuned_rdkit_morgan_10fold_final_model/fold_1_best_model.pt"
+    },
+    {
+      "path": "fold_1_metadata.npz",
+      "bytes": 747246,
+      "sha256": "fc910a4a32aeb4f672f093da9ffdb1e84173940fa2361cd57dc464561e7709c1",
+      "source": "/home/ning/DockingProject/training/regression/percentile_consensus/results/final_model/percentile_diverse_ndcg_tuned_rdkit_morgan_10fold_final_model/fold_1_metadata.npz"
+    },
+    {
+      "path": "fold_2_best_model.pt",
+      "bytes": 12096956,
+      "sha256": "8426fe8e6ad1c8591ac55791b37d90d0e772c781f26b85ab75884caad8c312f7",
+      "source": "/home/ning/DockingProject/training/regression/percentile_consensus/results/final_model/percentile_diverse_ndcg_tuned_rdkit_morgan_10fold_final_model/fold_2_best_model.pt"
+    },
+    {
+      "path": "fold_2_metadata.npz",
+      "bytes": 747243,
+      "sha256": "bba074a10a3aa870f6cec1427b78988feea81c230fa4fc6353c3c5bc053a64ef",
+      "source": "/home/ning/DockingProject/training/regression/percentile_consensus/results/final_model/percentile_diverse_ndcg_tuned_rdkit_morgan_10fold_final_model/fold_2_metadata.npz"
+    },
+    {
+      "path": "fold_3_best_model.pt",
+      "bytes": 12096956,
+      "sha256": "2d19dbd149473ce98231b35b7c1031dfd4a25b9971b0e805b76a40e860995c40",
+      "source": "/home/ning/DockingProject/training/regression/percentile_consensus/results/final_model/percentile_diverse_ndcg_tuned_rdkit_morgan_10fold_final_model/fold_3_best_model.pt"
+    },
+    {
+      "path": "fold_3_metadata.npz",
+      "bytes": 747242,
+      "sha256": "672d41ff2595f4996726cbc6fa9d024e7208406bd57087736331c1550e0bbf41",
+      "source": "/home/ning/DockingProject/training/regression/percentile_consensus/results/final_model/percentile_diverse_ndcg_tuned_rdkit_morgan_10fold_final_model/fold_3_metadata.npz"
+    },
+    {
+      "path": "fold_4_best_model.pt",
+      "bytes": 12096956,
+      "sha256": "f59dc182d789c7dcd49aa5e6080ac99f70a17df07776db5937fab2ea36a79107",
+      "source": "/home/ning/DockingProject/training/regression/percentile_consensus/results/final_model/percentile_diverse_ndcg_tuned_rdkit_morgan_10fold_final_model/fold_4_best_model.pt"
+    },
+    {
+      "path": "fold_4_metadata.npz",
+      "bytes": 747214,
+      "sha256": "53d128aa2fd8a358e0a9fd57c2a34422b5bd6cfe3a327d471f6fdd5b30cc609b",
+      "source": "/home/ning/DockingProject/training/regression/percentile_consensus/results/final_model/percentile_diverse_ndcg_tuned_rdkit_morgan_10fold_final_model/fold_4_metadata.npz"
+    },
+    {
+      "path": "fold_5_best_model.pt",
+      "bytes": 12096956,
+      "sha256": "1f9786e65e9e7a87c8951b42a36eb519eb8c6058e29695b00f778a0d9540e15f",
+      "source": "/home/ning/DockingProject/training/regression/percentile_consensus/results/final_model/percentile_diverse_ndcg_tuned_rdkit_morgan_10fold_final_model/fold_5_best_model.pt"
+    },
+    {
+      "path": "fold_5_metadata.npz",
+      "bytes": 747261,
+      "sha256": "f6cca6d5d1d26c101fee665829043554f00a749ef3bae9880b08b5cb10d62cdb",
+      "source": "/home/ning/DockingProject/training/regression/percentile_consensus/results/final_model/percentile_diverse_ndcg_tuned_rdkit_morgan_10fold_final_model/fold_5_metadata.npz"
+    },
+    {
+      "path": "fold_6_best_model.pt",
+      "bytes": 12096956,
+      "sha256": "7fdcd4e800fe2b14828567fde8eef4c5e1fbdfa574725fae8437a2f7c87cd157",
+      "source": "/home/ning/DockingProject/training/regression/percentile_consensus/results/final_model/percentile_diverse_ndcg_tuned_rdkit_morgan_10fold_final_model/fold_6_best_model.pt"
+    },
+    {
+      "path": "fold_6_metadata.npz",
+      "bytes": 747143,
+      "sha256": "77d3c1621d065748cea24468119ac5395c9e3d7182b7d41a299b10b2044fa97e",
+      "source": "/home/ning/DockingProject/training/regression/percentile_consensus/results/final_model/percentile_diverse_ndcg_tuned_rdkit_morgan_10fold_final_model/fold_6_metadata.npz"
+    },
+    {
+      "path": "fold_7_best_model.pt",
+      "bytes": 12096956,
+      "sha256": "95488cb70dd66bc746e31ac224d56428caa04d6d3d8945a5bf32208fe230689b",
+      "source": "/home/ning/DockingProject/training/regression/percentile_consensus/results/final_model/percentile_diverse_ndcg_tuned_rdkit_morgan_10fold_final_model/fold_7_best_model.pt"
+    },
+    {
+      "path": "fold_7_metadata.npz",
+      "bytes": 747219,
+      "sha256": "128815578252147e3729ec4a79f7e745a7544dd5567977ab5cef4ff46c687586",
+      "source": "/home/ning/DockingProject/training/regression/percentile_consensus/results/final_model/percentile_diverse_ndcg_tuned_rdkit_morgan_10fold_final_model/fold_7_metadata.npz"
+    },
+    {
+      "path": "fold_8_best_model.pt",
+      "bytes": 12096956,
+      "sha256": "fcb1d8ceeb001eed02d7946cfaa4e0296a9931568f0f45610b1a06aa24c04fa4",
+      "source": "/home/ning/DockingProject/training/regression/percentile_consensus/results/final_model/percentile_diverse_ndcg_tuned_rdkit_morgan_10fold_final_model/fold_8_best_model.pt"
+    },
+    {
+      "path": "fold_8_metadata.npz",
+      "bytes": 747163,
+      "sha256": "bf20632ddfb3659a1eae531cb5da65d28d514e3d63e2e2354dacc42ddc7f5551",
+      "source": "/home/ning/DockingProject/training/regression/percentile_consensus/results/final_model/percentile_diverse_ndcg_tuned_rdkit_morgan_10fold_final_model/fold_8_metadata.npz"
+    },
+    {
+      "path": "fold_9_best_model.pt",
+      "bytes": 12096956,
+      "sha256": "6c5cf00cd768a7b0a6b6843a34dd3e42abb3ac4240bc0941f5ed654a5e509ed0",
+      "source": "/home/ning/DockingProject/training/regression/percentile_consensus/results/final_model/percentile_diverse_ndcg_tuned_rdkit_morgan_10fold_final_model/fold_9_best_model.pt"
+    },
+    {
+      "path": "fold_9_metadata.npz",
+      "bytes": 747171,
+      "sha256": "30f8cd6efacc82d83e7858cfa65e7ea692cf9089831ab7564b9bb1fe45961520",
+      "source": "/home/ning/DockingProject/training/regression/percentile_consensus/results/final_model/percentile_diverse_ndcg_tuned_rdkit_morgan_10fold_final_model/fold_9_metadata.npz"
+    },
+    {
+      "path": "fold_10_best_model.pt",
+      "bytes": 12096978,
+      "sha256": "930a77a42f4b9d882a857ed4b2c7d50ff74649cee2e510597c5c956a89007ad1",
+      "source": "/home/ning/DockingProject/training/regression/percentile_consensus/results/final_model/percentile_diverse_ndcg_tuned_rdkit_morgan_10fold_final_model/fold_10_best_model.pt"
+    },
+    {
+      "path": "fold_10_metadata.npz",
+      "bytes": 747164,
+      "sha256": "d20d3824a5fdd8fafa57969902a774994b478fc0a594dd8eb8ebffd779d4284d",
+      "source": "/home/ning/DockingProject/training/regression/percentile_consensus/results/final_model/percentile_diverse_ndcg_tuned_rdkit_morgan_10fold_final_model/fold_10_metadata.npz"
+    }
+  ]
+}

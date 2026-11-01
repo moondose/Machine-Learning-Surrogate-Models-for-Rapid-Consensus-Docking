@@ -1,0 +1,18 @@
+{
+  "hidden_dims": "2048,1024,512",
+  "activation": "silu",
+  "optimizer": "sgd",
+  "lr": 0.01,
+  "dropout": 0.4,
+  "weight_decay": 0.0001,
+  "batch_size": 1024,
+  "epochs": 200,
+  "seed": 42,
+  "early_stop_patience": 20,
+  "lr_patience": 4,
+  "n_folds": 10,
+  "input_dim": 2274,
+  "target": "y_mbe",
+  "selection_metric": "validation_mse",
+  "precision": "amp"
+}

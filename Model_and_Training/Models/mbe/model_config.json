@@ -1,0 +1,26 @@
+{
+  "input_dim": 2274,
+  "hidden_dims": [
+    2048,
+    1024,
+    512
+  ],
+  "activation": "silu",
+  "dropout": 0.4,
+  "model_class": "DockingMLP",
+  "model_definition": "../../Training/model_utils.py",
+  "folds": 10,
+  "target": "Mean_Binding_Energy(MBE)",
+  "prediction": "fold-local feature standardization, model forward, inverse target scaling, mean across folds",
+  "target_definition": "(GNINA minimizedAffinity + LeDock score) / 2",
+  "training_hyperparameters": {
+    "optimizer": "sgd",
+    "lr": 0.01,
+    "weight_decay": 0.0001,
+    "batch_size": 1024,
+    "epochs": 200,
+    "seed": 42,
+    "early_stop_patience": 20,
+    "lr_patience": 4
+  }
+}
